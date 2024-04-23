@@ -19,9 +19,9 @@ class FHDDM(base.BinaryDriftAndWarningDetector):
     For example, if a classifier's prediction $y'$ is right or wrong w.r.t. the
     true target label $y$:
 
-    - 0: Correct, $y=y'$
+    - 1: Correct, $y=y'$
 
-    - 1: Error, $y \\neq y'$
+    - 0: Error, $y \\neq y'$
 
     *Implementation based on MOA.*
 
